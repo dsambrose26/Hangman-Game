@@ -1,0 +1,42 @@
+body {
+  color: aliceblue;
+  background-color:indigo;
+  background-image: url(../images/hangman2.jpg);
+  background-size: 40%;
+  background-repeat: no-repeat;
+ }
+
+ #new-game-button {
+   outline: none;
+   border: none;
+   cursor: pointer;
+   display: block;
+   background-color: white;
+   position: relative;
+   font-size: 14px;
+   font-weight: bold;
+   color: black;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   padding: 10px;
+   border-radius: 5px;
+   box-shadow: 0 3px black;
+ }
+
+ #new-game-button:hover {
+  box-shadow: 0 4px purple;
+  top: 2px;
+ }
+
+ #placeholder-section {
+  background-color: grey;
+}
+
+ #scoring-section {
+   background-color: black;
+ }
+
+ #placeholders {
+  letter-spacing: 6px;
+  font-size: 40px;
+}
